@@ -37,8 +37,19 @@ inboth_sets = ff.intersection(sf)
 firstonly_set = ff.difference(sf)
 secondonly_set = sf.difference(ff)
 
+inboth_size = len(inboth_sets)
+firstonly_size = len(firstonly_set)
+secondonly_size = len(secondonly_set)
+first_file_size = len(first_file)
+second_file_size = len(second_file)
+
+print "The number of items in file 1 is " + str(first_file_size)
+print "The number of items in file 2 is " + str(second_file_size)
+
+print "The number of items that appear in both files is " + str(inboth_size)
+print "The number only in file 1 is " + str(firstonly_size)
+print "The number only in file 2 is " + str(secondonly_size)
 for issue in inboth_sets:
-    print issue
     print >>in_both, issue,
 
 for issue in firstonly_set:
