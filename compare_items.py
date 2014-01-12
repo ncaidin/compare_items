@@ -1,7 +1,7 @@
 __author__ = 'nealcaidin'
 
 # import easygui as eg
-
+# am I in choose_files branch now?
 # msg=None, title=None, default='*', filetypes=None
 
 # default="/Users/nealcaidin/Documents/Sakai/JiraGen/"
