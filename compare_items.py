@@ -1,6 +1,7 @@
 __author__ = 'nealcaidin'
 
 # import easygui as eg
+# this should only show up in the choose_files_branch
 
 # msg=None, title=None, default='*', filetypes=None
 
