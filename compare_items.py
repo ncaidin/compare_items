@@ -3,6 +3,7 @@ __author__ = 'nealcaidin'
 # import easygui as eg
 # just testing where this goes
 # and again
+# after deleting sub-directory which I think was a separate git repo
 # msg=None, title=None, default='*', filetypes=None
 
 # default="/Users/nealcaidin/Documents/Sakai/JiraGen/"
